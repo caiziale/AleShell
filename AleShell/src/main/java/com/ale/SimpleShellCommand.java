@@ -49,11 +49,11 @@ public class SimpleShellCommand {
 			StringBuffer sb=new StringBuffer();
 			String line=null;
 			while ((line=bufferedReader.readLine())!=null) {
-				System.out.println(line);
-				sb.append(line+"\n");	
+				System.out.println(line);			
+				sb.append(line+"\n");				
 			}
 			ss=new String(sb.toString());
-			System.out.println(ss);
+			//System.out.println(ss);
 		} catch (Exception e) {
 			// TODO: handle exception
 			e.printStackTrace();
